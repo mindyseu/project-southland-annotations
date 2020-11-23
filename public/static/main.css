@@ -6,12 +6,119 @@ body {
   padding: 0;
   margin: 0.5em;
 }
-
-.nav {
-  position: fixed;
-  width: 20%;
-  font-size: 32px;
+p {
+  margin: 0;
 }
+p + p {
+  margin-top: 32px;
+}
+
+.base {
+  color: black;
+}
+
+nav {
+  font-size: 32px;
+  display: none;
+  padding: 32px 0px 50px 0px;
+}
+main {
+  /* margin: 0 auto; */
+  font-size: 32px;
+  padding: 32px 32px 50px 0px;
+}
+
+@media (min-width: 800px) {
+  .layout {
+    display: flex;
+    flex-direction: row;
+  }
+  nav {
+    display: block;
+    width: 20%;
+    min-width: 250px;
+    font-size: 32px;
+  }
+  main {
+    flex: 1;
+    font-size: 32px;
+  }
+}
+
+.annotation {
+  margin-right: 0;
+  margin-left: 10px;
+  display: inline;
+}
+.annotation p,
+.annotation div,
+.annotation img,
+.annotation ul,
+.annotation li .annotation h1,
+.annotation h2,
+.annotation h3,
+.annotation h4,
+.annotation h5 {
+  display: inline;
+  margin: auto;
+  height: auto;
+}
+.annotation img {
+  height: 26px;
+  width: auto;
+}
+.annotation a {
+  color: inherit;
+}
+.annotation .user-content {
+  margin-right: 10px;
+}
+
+/***** begin user icons and colors *****/
+/* default icon */
+.user-icon {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: initial;
+  background-size: contain;
+  make-image: url(sun.svg);
+  -webkit-mask-image: url(sun.svg);
+  mask-size: 100%;
+  -webkit-mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+
+  width: 25px;
+  height: 25px;
+  margin-right: 0;
+  display: inline-block;
+}
+
+.color--mindyseu {
+  color: powderblue;
+}
+.icon--mindyseu {
+  background-color: powderblue;
+}
+.icon--rchrd2 {
+  background-color: lightsteelblue;
+  make-image: url(sun.svg);
+  -webkit-mask-image: url(sun.svg);
+}
+.color--rchrd2 {
+  color: lightsteelblue;
+}
+.color--functional {
+  color: skyblue;
+}
+.icon--functional {
+  background-color: skyblue;
+}
+
+/***** old code for reference */
 
 .person-1 {
   color: powderblue;
@@ -39,74 +146,4 @@ body {
 
 .person-7 {
   color: mediumblue;
-}
-
-.base {
-  color: black;
-}
-
-.container {
-  padding: 0px 0px 50px 0px;
-}
-
-main {
-  position: relative;
-  left: 400px;
-  width: 70%;
-  /* margin: 0 auto; */
-  font-size: 32px;
-}
-
-.anno {
-  display: none;
-}
-
-.annotation {
-  /* text-decoration: underline; */
-  margin-right: 10px;
-  margin-left: 10px;
-  display: inline;
-}
-.annotation + .annotation {
-}
-.annotation p,
-.annotation div,
-.annotation img,
-.annotation ul,
-.annotation li
-.annotation h1,
-.annotation h2,
-.annotation h3,
-.annotation h4,
-.annotation h5 {
-  display: inline;
-  margin: auto;
-  height: auto;
-}
-.annotation img {
-  height: 26px;
-  width: auto;
-}
-.annotation a {
-  color: inherit;
-}
-
-/***** begin user icons and colors *****/
-.color--mindyseu {
-  color: orange;
-}
-.icon--mindyseu::before {
-  content: "✻"
-}
-.color--rchrd2 {
-  color: red;
-}
-.icon--rchrd2::before {
-  content: "✻"
-}
-.color--functional {
-  color: yellow;
-}
-.icon--functional::before {
-  content: "✻"
 }

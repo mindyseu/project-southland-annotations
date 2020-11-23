@@ -56,7 +56,6 @@ function initClientUI(rows) {
     } catch(e) {
     }
   });
-  console.log(usernameState);
 
   var styleEl = document.createElement("style");
   // styleEl.type = "text/css";
@@ -73,9 +72,12 @@ function initClientUI(rows) {
 
   window.updateDisplayState();
 
-  // TODO generate toggles for each user
-  var navEl = document.getElementById("nav");
-  Object.keys(usernameState).forEach((userId) => {
+  var navEl = document.getElementById("checkboxes");
+  var userIds = Object.keys(usernameState);
+  userIds = userIds.sort((a, b) => (
+      usernameState[a].displayName.toLowerCase() > usernameState[b].displayName.toLowerCase()
+    ) ? 1 : -1)
+  userIds.forEach((userId) => {
     $(`<div class="color--${userId}">
       <label>
       <input type="checkbox" onclick="updateDisplayState" checked />

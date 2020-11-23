@@ -92,8 +92,8 @@ function attachAnnotation(exact, prefix, anno, row) {
   el.className = `annotation color--${anno.user}`;
   el.setAttribute("data-userid", anno.user);
 
-  el.innerHTML = `<span class="icon--${anno.user}"></span>
-    <span class="content--${anno.user}">${buildInnerHtml(anno, row)}</span>`;
+  el.innerHTML = `<span class="user-icon icon--${anno.user}"></span>
+    <span class="user-content content--${anno.user}">${buildInnerHtml(anno, row)}</span>`;
 
   // Insert at end
   var endRange = range.cloneRange();
