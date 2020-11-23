@@ -29,6 +29,9 @@ function initClient(pageId) {
     getAnnotations(pageId, 0, []).then((rows) => {
       attachAnnotations(rows);
       initClientUI(rows);
+      document.querySelectorAll('[data-zoom-image]').forEach(function(img) {
+        new imageZoom(img);
+      });
     });
   };
   setup();
@@ -104,18 +107,6 @@ function initClientUI(rows) {
     .change((e) => {
       $('.base--content').css('color', e.target.checked ? '' : 'transparent');
     });
-
-  $("input.maxtickets_enable_cb")
-    .change(function () {
-      if ($(this).is(":checked")) $(this).next("span.max_tickets").show();
-      else $("span.max_tickets").hide();
-    })
-    .change();
-  function toggle(className, obj) {
-    var $input = $(obj);
-    if ($input.prop("checked")) $(className).show();
-    else $(className).hide();
-  }
 }
 
 function main() {

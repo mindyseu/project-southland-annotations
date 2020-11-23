@@ -71,7 +71,8 @@ function buildInnerHtml(anno, row) {
     }
   });
   $html.find("img").each((idx, el) => {
-    $(el).wrap(`<a href="${el.src}" target="_blank"></a>`)
+    el.setAttribute("data-zoom-image", "");
+    // $(el).wrap(`<a href="${el.src}" target="_blank"></a>`);
     // el.onclick = function() {
     //   window.open(el.src, '_blank');
     // }

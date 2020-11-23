@@ -28,6 +28,8 @@ main {
   padding: 32px 32px 50px 0px;
 }
 
+#edit-link {display: none;}
+
 @media (min-width: 800px) {
   .layout {
     display: flex;
@@ -42,6 +44,12 @@ main {
   main {
     flex: 1;
     font-size: 32px;
+  }
+  #edit-link {
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
   }
 }
 
