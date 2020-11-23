@@ -1,5 +1,6 @@
 TODO
-- [ ] display annotations inline
+- [x] display annotations inline at end of line
+- [ ] render markdown
 - [ ] add controls to toggle annotations
 
 

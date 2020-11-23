@@ -68,13 +68,32 @@ function attachAnnotation(exact, prefix, anno, row) {
 
   var el = document.createElement("span");
   console.log(row);
-  el.innerText = `${anno.user}: ${row.text}`;
+  // el.innerText = `${anno.user}: ${row.text}`;
+  var $html = $(marked(row.text));
+  $html.find("a").each((idx, el) => {
+    if (el.href.indexOf(".mp3") >= 0) {
+      el.innerText = decodeURI(el.innerText.split("/").pop());
+      el.target = "_blank";
+    }
+  });
+  $html.find("img").each((idx, el) => {
+    $(el).wrap(`<a href="${el.src}" target="_blank"></a>`)
+    // el.onclick = function() {
+    //   window.open(el.src, '_blank');
+    // }
+  });
+  el.innerHTML = $html.html();
   el.style.color = "lightblue";
   el.id = "hypothesis-" + row.id;
   el.setAttribute("data-hypothesis", JSON.stringify(row));
   // el.title = payload;
   el.className = "annotation";
-  range.insertNode(el);
+  el.setAttribute("data-annotation-userid", anno.user);
+
+  var endRange = range.cloneRange();
+  console.log(range.endOffset);
+  endRange.setStart(range.endContainer, range.endOffset + 1);
+  endRange.insertNode(el);
 }
 
 function stripUsername(user) {
@@ -107,10 +126,8 @@ function attachAnnotations(rows) {
     var exact = text_quote_selector["exact"];
     var prefix = text_quote_selector["prefix"];
     anno = {
-      id: row.id,
       user: user,
       exact: exact,
-      text: row.text,
       prefix: prefix,
     };
     try {

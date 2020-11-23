@@ -49,7 +49,7 @@ body {
   padding: 0px 0px 50px 0px;
 }
 
-p {
+main {
   position: relative;
   left: 400px;
   width: 70%;
@@ -64,7 +64,21 @@ p {
 .annotation {
   text-decoration: underline;
   margin-right: 10px;
+  display: inline;
 }
 .annotation + .annotation {
   margin-left: 10px;
+}
+.annotation p,
+.annotation div,
+.annotation img,
+.annotation ul,
+.annotation li {
+  display: inline;
+  margin: auto;
+  height: auto;
+}
+.annotation img {
+  height: 26px;
+  width: auto;
 }
