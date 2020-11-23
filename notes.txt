@@ -1,0 +1,80 @@
+TODO
+- [ ] display annotations inline
+- [ ] add controls to toggle annotations
+
+
+
+---
+  <!---
+Add
+- images that are the same line height
+- individual examples of active layers
+- fix margins
+
+- text
+- image expands behind the text
+- link
+- audio embed
+
+<span class="person-1">✺</span>
+<span class="person-2">✰</span>
+<span class="person-3">❃</span>
+<span class="person-4">✵</span>
+<span class="person-5">✻</span>
+
+-->
+
+
+    <!-- https://h.readthedocs.io/projects/client/en/latest/publishers/config/ -->
+    <!-- <script type="application/json" class="js-hypothesis-config">
+      {
+        "showHighlights": false,
+        "theme": "clean"
+      }
+    </script> -->
+    <!-- <script>
+      window.hypothesisConfig = function () {
+        return {
+          "showHighlights": false,
+          "theme": "clean"
+        }
+      };
+    </script>
+    <script async src="https://hypothes.is/embed.js"></script>
+    <style>
+      .hypothesis-highlight {
+        background-color: transparent !important;
+      }
+    </style>
+    <script>
+      fetch(
+        `https://api.hypothes.is/api/search?uri=${encodeURIComponent(
+          location.href
+        )}`
+      ).then((response) => {
+        console.log(response);
+        response.json().then((data) => {
+          console.log(data);
+        });
+      });
+    </script> -->
+
+    <!-- <script>
+      window.hypothesisConfig = function () {
+        return {
+          "showHighlights": true,
+          // "theme": "clean"
+        }
+      };
+    </script>
+    <script async src="https://hypothes.is/embed.js"></script>
+    <script src="textanchoring.js"></script>
+    <script>
+
+get_annotations('https://dev.rchrd.net/annotations/edit.html', "", 0, []);
+document.body.addEventListener("AnnotationsLoaded", function() {
+    console.log('page knows ajax is done, and so are the annotations...');
+    console.log('See:', document.querySelectorAll('mark'));
+  });
+
+    </script> -->

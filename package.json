@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "upload_dev": "rsync -av ./public/ rcaceres@dev.rchrd.net:/home/rcaceres/sites/net.rchrd.dev/web/annotations/public/",
+    "build": "cd libraries/StandaloneAnchoring; npm run build"
+  }
+}

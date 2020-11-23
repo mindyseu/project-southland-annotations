@@ -1,0 +1,70 @@
+html,
+body {
+  width: 98vw;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0.5em;
+}
+
+.nav {
+  position: fixed;
+  width: 20%;
+  font-size: 32px;
+}
+
+.person-1 {
+  color: powderblue;
+}
+
+.person-2 {
+  color: lightsteelblue;
+}
+
+.person-3 {
+  color: skyblue;
+}
+
+.person-4 {
+  color: deepskyblue;
+}
+
+.person-5 {
+  color: dodgerblue;
+}
+
+.person-6 {
+  color: cornflowerblue;
+}
+
+.person-7 {
+  color: mediumblue;
+}
+
+.base {
+  color: black;
+}
+
+.container {
+  padding: 0px 0px 50px 0px;
+}
+
+p {
+  position: relative;
+  left: 400px;
+  width: 70%;
+  /* margin: 0 auto; */
+  font-size: 32px;
+}
+
+.anno {
+  display: none;
+}
+
+.annotation {
+  text-decoration: underline;
+  margin-right: 10px;
+}
+.annotation + .annotation {
+  margin-left: 10px;
+}
