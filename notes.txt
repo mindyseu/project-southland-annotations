@@ -1,8 +1,9 @@
 TODO
 - [x] display annotations inline at end of line
-- [ ] render markdown
-- [ ] add controls to toggle annotations
-
+- [x] render markdown
+- [x] add controls to toggle annotations
+- [ ] add example svg
+- [ ] clean up responsiveness
 
 
 ---

@@ -60,13 +60,7 @@ function compare(a, b) {
   else return 0;
 }
 
-function attachAnnotation(exact, prefix, anno, row) {
-  var range = TextQuoteAnchor.toRange(document.body, {
-    exact: exact,
-    prefix: prefix,
-  });
-
-  var el = document.createElement("span");
+function buildInnerHtml(anno, row) {
   console.log(row);
   // el.innerText = `${anno.user}: ${row.text}`;
   var $html = $(marked(row.text));
@@ -82,16 +76,27 @@ function attachAnnotation(exact, prefix, anno, row) {
     //   window.open(el.src, '_blank');
     // }
   });
-  el.innerHTML = $html.html();
-  el.style.color = "lightblue";
+  return $html.html();
+}
+
+function attachAnnotation(exact, prefix, anno, row) {
+  var range = TextQuoteAnchor.toRange(document.body, {
+    exact: exact,
+    prefix: prefix,
+  });
+
+  var el = document.createElement("span");
   el.id = "hypothesis-" + row.id;
   el.setAttribute("data-hypothesis", JSON.stringify(row));
-  // el.title = payload;
-  el.className = "annotation";
-  el.setAttribute("data-annotation-userid", anno.user);
+  el.title = row.text;
+  el.className = `annotation color--${anno.user}`;
+  el.setAttribute("data-userid", anno.user);
 
+  el.innerHTML = `<span class="icon--${anno.user}"></span>
+    <span class="content--${anno.user}">${buildInnerHtml(anno, row)}</span>`;
+
+  // Insert at end
   var endRange = range.cloneRange();
-  console.log(range.endOffset);
   endRange.setStart(range.endContainer, range.endOffset + 1);
   endRange.insertNode(el);
 }

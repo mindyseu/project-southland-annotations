@@ -62,18 +62,23 @@ main {
 }
 
 .annotation {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   margin-right: 10px;
+  margin-left: 10px;
   display: inline;
 }
 .annotation + .annotation {
-  margin-left: 10px;
 }
 .annotation p,
 .annotation div,
 .annotation img,
 .annotation ul,
-.annotation li {
+.annotation li
+.annotation h1,
+.annotation h2,
+.annotation h3,
+.annotation h4,
+.annotation h5 {
   display: inline;
   margin: auto;
   height: auto;
@@ -81,4 +86,27 @@ main {
 .annotation img {
   height: 26px;
   width: auto;
+}
+.annotation a {
+  color: inherit;
+}
+
+/***** begin user icons and colors *****/
+.color--mindyseu {
+  color: orange;
+}
+.icon--mindyseu::before {
+  content: "✻"
+}
+.color--rchrd2 {
+  color: red;
+}
+.icon--rchrd2::before {
+  content: "✻"
+}
+.color--functional {
+  color: yellow;
+}
+.icon--functional::before {
+  content: "✻"
 }
