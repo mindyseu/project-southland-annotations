@@ -90,10 +90,10 @@ function attachAnnotation(exact, prefix, anno, row) {
   el.id = "hypothesis-" + row.id;
   el.setAttribute("data-hypothesis", JSON.stringify(row));
   el.title = row.text;
-  el.className = `annotation color--${anno.user}`;
+  el.className = `annotation color--default color--${anno.user}`;
   el.setAttribute("data-userid", anno.user);
 
-  el.innerHTML = `<span class="user-icon icon--${anno.user}"></span>
+  el.innerHTML = `<span class="user-icon icon--default icon--${anno.user}"></span>
     <span class="user-content content--${anno.user}">${buildInnerHtml(anno, row)}</span>`;
 
   // Insert at end

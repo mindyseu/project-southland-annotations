@@ -84,7 +84,7 @@ main {
 
 /***** begin user icons and colors *****/
 /* default icon */
-.user-icon {
+.icon--default {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,6 +105,9 @@ main {
   display: inline-block;
 }
 
+.color--default {
+  color: cornflowerblue;
+}
 .color--mindyseu {
   color: powderblue;
 }

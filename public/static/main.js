@@ -81,7 +81,7 @@ function initClientUI(rows) {
       usernameState[a].displayName.toLowerCase() > usernameState[b].displayName.toLowerCase()
     ) ? 1 : -1)
   userIds.forEach((userId) => {
-    $(`<div class="color--${userId}">
+    $(`<div class="color--default color--${userId}">
       <label>
       <input type="checkbox" onclick="updateDisplayState" checked />
       ${usernameState[userId].displayName}
