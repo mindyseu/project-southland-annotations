@@ -119,15 +119,22 @@ function main() {
     var id = document.querySelector('meta[name="dc.identifier"]').content;
     // urn:x-dc:elifesciences.org/blog-article/e3d858b3
     pageId = `urn:x-dc:${namespace}/${id}`;
-  } catch (e) {
+  } catch (e) {}
+
+  if (!pageId) {
+    try {
+      pageId = document.querySelector('link[rel="canonical"]').href;
+    } catch (e) {}
+  }
+
+  if (!pageId) {
+    // Append /?edit=1 so we get annotations from edit page
     pageId = document.location.origin + document.location.pathname + "?edit=1";
   }
 
-  var search = document.location.search;
-  if (search.indexOf("edit=1") >= 0) {
+  if (document.location.search.indexOf("edit=1") >= 0) {
     initEditor();
   } else {
-    // Append /?edit=1 so we get annotations from edit page
     initClient(pageId);
   }
 }

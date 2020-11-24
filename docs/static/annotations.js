@@ -15,7 +15,7 @@ function _getAnnotations(uri, offset, rows, resolve) {
     var data = JSON.parse(xhr.responseText);
     rows = rows.concat(data.rows);
     if (data.rows.length != 0) {
-      console.log("offset: " + offset);
+      // console.log("offset: " + offset);
       _getAnnotations(uri, offset + 200, rows, resolve);
     } else {
       resolve(rows);
@@ -61,7 +61,7 @@ function compare(a, b) {
 }
 
 function buildInnerHtml(anno, row) {
-  console.log(row);
+  // console.log(row);
   // el.innerText = `${anno.user}: ${row.text}`;
   var $html = $(marked(row.text));
   $html.find("a").each((idx, el) => {
@@ -113,10 +113,9 @@ function attachAnnotations(rows) {
 
   for (var i = 0; i < rows.length; i++) {
     var row = rows[i];
-    console.log(row);
+    // console.log(row);
     if (row.hasOwnProperty("references")) {
       // latch reply onto parent
-      console.log(row);
       for (var j = 0; j < rows.length; j++) {
         if (rows[j].id == row.references[0]) {
           row.target = rows[j].target;
