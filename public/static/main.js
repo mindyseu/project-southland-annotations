@@ -110,14 +110,23 @@ function initClientUI(rows) {
 }
 
 function main() {
-  var pageId = document.location.origin + document.location.pathname;
-  var search = document.location.search;
+  var pageId;
 
+  try {
+    var namespace = document.querySelector('meta[name="dc.relation.ispartof"]').content;
+    var id = document.querySelector('meta[name="dc.identifier"]').content;
+    // urn:x-dc:elifesciences.org/blog-article/e3d858b3
+    pageId = `urn:x-dc:${namespace}/${id}`;
+  } catch (e) {
+    pageId = document.location.origin + document.location.pathname + "?edit=1";
+  }
+
+  var search = document.location.search;
   if (search.indexOf("edit=1") >= 0) {
-    initEditor(pageId);
+    initEditor();
   } else {
     // Append /?edit=1 so we get annotations from edit page
-    initClient(pageId + "?edit=1");
+    initClient(pageId);
   }
 }
 

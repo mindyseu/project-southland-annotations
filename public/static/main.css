@@ -17,9 +17,27 @@ p + p {
   color: black;
 }
 
+[data-zoom-backdrop='active'] {
+	opacity: 0;
+	pointer-events: auto;
+}
+
+[data-zoom-image] {
+	position: relative;
+	z-index: 800;
+	transform: none;
+	transition: transform 400ms ease;
+	cursor: zoom-in;
+}
+
+[data-zoom-image='active'] {
+	z-index: -1000;
+	cursor: zoom-out;
+}
+
 nav {
   font-size: 32px;
-  display: none;
+  display: block;
   padding: 32px 0px 50px 0px;
 }
 main {
@@ -30,14 +48,14 @@ main {
 
 #edit-link {display: none;}
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .layout {
     display: flex;
     flex-direction: row;
   }
   nav {
     display: block;
-    width: 20%;
+    width: 25%;
     min-width: 250px;
     font-size: 32px;
   }
@@ -55,8 +73,11 @@ main {
 
 .annotation {
   margin-right: 0;
-  margin-left: 10px;
+  margin-left: 0;
   display: inline;
+}
+.annotation + .annotation {
+  margin-left: 0;
 }
 .annotation p,
 .annotation div,
@@ -91,8 +112,9 @@ main {
   background-repeat: no-repeat;
   background-image: initial;
   background-size: contain;
-  make-image: url(sun.svg);
-  -webkit-mask-image: url(sun.svg);
+  background-color: cornflowerblue;
+  mask-image: url(img/sun.svg);
+  -webkit-mask-image: url(img/sun.svg);
   mask-size: 100%;
   -webkit-mask-size: 100%;
   mask-repeat: no-repeat;
@@ -114,11 +136,13 @@ main {
 }
 .icon--mindyseu {
   background-color: powderblue;
+  mask-image: url(img/MORE_ASTERISK_LC_1-01.svg);
+  -webkit-mask-image: url(img/MORE_ASTERISK_LC_1-01.svg);
 }
 .icon--rchrd2 {
   background-color: lightsteelblue;
-  make-image: url(sun.svg);
-  -webkit-mask-image: url(sun.svg);
+  make-image: url(img/sun.svg);
+  -webkit-mask-image: url(img/sun.svg);
 }
 .color--rchrd2 {
   color: lightsteelblue;

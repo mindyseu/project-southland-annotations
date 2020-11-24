@@ -82,13 +82,13 @@ function buildInnerHtml(anno, row) {
 
 function attachAnnotation(exact, prefix, anno, row) {
   var range = TextQuoteAnchor.toRange(document.body, {
-    exact: exact,
+    exact: exact.trim(),
     prefix: prefix,
   });
 
   var el = document.createElement("span");
   el.id = "hypothesis-" + row.id;
-  el.setAttribute("data-hypothesis", JSON.stringify(row));
+  // el.setAttribute("data-hypothesis", JSON.stringify(row));
   el.title = row.text;
   el.className = `annotation color--default color--${anno.user}`;
   el.setAttribute("data-userid", anno.user);
