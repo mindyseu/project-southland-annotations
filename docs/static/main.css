@@ -160,7 +160,7 @@ main {
 }
 .icon--rchrd2 {
   background-color: lightsteelblue;
-  make-image: url(img/sun.svg);
+  mask-image: url(img/sun.svg);
   -webkit-mask-image: url(img/sun.svg);
 }
 .color--rchrd2 {
