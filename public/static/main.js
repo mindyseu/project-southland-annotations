@@ -29,9 +29,11 @@ function initClient(pageId) {
     getAnnotations(pageId, 0, []).then((rows) => {
       attachAnnotations(rows);
       initClientUI(rows);
+      // Initialize plugins
       document.querySelectorAll('[data-zoom-image]').forEach(function(img) {
         new imageZoom(img);
       });
+      addScript("static/vendor/soundmanager2-inlineplayer.js");
     });
   };
   setup();

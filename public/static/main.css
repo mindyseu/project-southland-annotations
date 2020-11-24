@@ -46,7 +46,15 @@ main {
   padding: 32px 32px 50px 0px;
 }
 
-#edit-link {display: none;}
+#edit-link {
+  display: none;
+}
+#edit-link a, #edit-link a:active {
+  color: black;
+}
+#edit-link a:hover {
+  color: blue;
+}
 
 @media (min-width: 1000px) {
   .layout {
@@ -102,6 +110,17 @@ main {
 }
 .annotation .user-content {
   margin-right: 10px;
+}
+.sm2_link.sm2_playing {
+  /* background: red; */
+  opacity: 1;
+  animation: fade 2s linear infinite;
+}
+
+@keyframes fade {
+  0% { opacity: .1; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 /***** begin user icons and colors *****/
