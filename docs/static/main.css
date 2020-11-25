@@ -23,7 +23,6 @@ a:hover {
 .about {
   padding-left: 20px;
 }
-
 /* mindy added the lines above*/
 
 p {
@@ -61,7 +60,6 @@ nav {
   padding: 20px 0px 50px 0px;
 }
 main {
-  /* margin: 0 auto; */
   font-size: 32px;
   padding: 20px 32px 50px 0px;
 }
@@ -143,8 +141,12 @@ main {
   100% { opacity: 0; }
 }
 
-/***** begin user icons and colors *****/
-/* default icon */
+
+
+/***** default  *****/
+.color--default {
+  color: cornflowerblue;
+}
 .icon--default {
   background-size: contain;
   background-position: center;
@@ -167,10 +169,10 @@ main {
   display: inline-block;
 }
 
-.color--default {
-  color: cornflowerblue;
-}
 
+/******** begin user icons and colors ********/
+
+/***** 1 — Laura & Laura test *****/
 .color--lauracoombs {
   color: limegreen;
 }
@@ -189,6 +191,7 @@ main {
   -webkit-mask-image: url(img/MORE_ASTERISK_LC_1-01.svg);
 }
 
+/***** 2 — Mindy & Mindy test *****/
 .color--mindyseu {
   color: red;
 }
@@ -198,47 +201,374 @@ main {
   -webkit-mask-image: url(img/more-test-asterisk-2.svg);
 }
 
+.color--mindyseu_again {
+  color: pink;
+}
+.icon--mindyseu_again {
+  background-color: pink;
+  mask-image: url(img/more-test-asterisk-2.svg);
+  -webkit-mask-image: url(img/more-test-asterisk-2.svg);
+}
+
+/***** 3 — Richard *****/
+.color--rchrd2 {
+  color: lightsteelblue;
+}
+
 .icon--rchrd2 {
   background-color: lightsteelblue;
   mask-image: url(img/sun.svg);
   -webkit-mask-image: url(img/sun.svg);
 }
-.color--rchrd2 {
-  color: lightsteelblue;
-}
-.color--functional {
-  color: skyblue;
-}
-.icon--functional {
-  background-color: skyblue;
+
+/***** 4 — Joe Potts *****/
+.color--joepotts {
+  color: orange;
 }
 
-/***** old code for reference */
-
-.person-1 {
-  color: powderblue;
+.icon--joepotts {
+  background-color: orange;
+  mask-image: url(img/sun.svg);
+  -webkit-mask-image: url(img/sun.svg);
 }
 
-.person-2 {
-  color: lightsteelblue;
+/***** 5 — lorem *****/
+/* .color-- {
+  color: ;
 }
 
-.person-3 {
-  color: skyblue;
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 6 — lorem *****/
+/* .color-- {
+  color: ;
 }
 
-.person-4 {
-  color: deepskyblue;
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 7 — lorem *****/
+/* .color-- {
+  color: ;
 }
 
-.person-5 {
-  color: dodgerblue;
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 8 — lorem *****/
+/* .color-- {
+  color: ;
 }
 
-.person-6 {
-  color: cornflowerblue;
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 9 — lorem *****/
+/* .color-- {
+  color: ;
 }
 
-.person-7 {
-  color: mediumblue;
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 10 — lorem *****/
+/* .color-- {
+  color: ;
 }
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 11 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 12 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 13 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 14 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 15 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 16 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 17 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 18 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 19 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 20 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 21 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 22 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 23 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 24 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 25 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 26 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 27 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 28 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 29 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 30 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 31 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 32 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 33 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 34 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
+
+/***** 35 — lorem *****/
+/* .color-- {
+  color: ;
+}
+
+.icon-- {
+  background-color: ;
+  mask-image: url(img/.svg);
+  -webkit-mask-image: url(img/.svg);
+} */
