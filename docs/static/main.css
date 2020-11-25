@@ -171,12 +171,12 @@ main {
   color: cornflowerblue;
 }
 .color--mindyseu {
-  color: powderblue;
+  color: red;
 }
 .icon--mindyseu {
-  background-color: powderblue;
-  mask-image: url(img/MORE_ASTERISK_LC_1-01.svg);
-  -webkit-mask-image: url(img/MORE_ASTERISK_LC_1-01.svg);
+  background-color: red;
+  mask-image: url(img/more-test-asterisk-2.svg);
+  -webkit-mask-image: url(img/more-test-asterisk-2.svg);
 }
 .icon--rchrd2 {
   background-color: lightsteelblue;
