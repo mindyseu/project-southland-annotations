@@ -172,10 +172,10 @@ main {
 }
 
 .color--lauracoombs {
-  color: green;
+  color: limegreen;
 }
 .icon--lauracoombs {
-  background-color: green;
+  background-color: limegreen;
   mask-image: url(img/sun.svg);
   -webkit-mask-image: url(img/sun.svg);
 }
