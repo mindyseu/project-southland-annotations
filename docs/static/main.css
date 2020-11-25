@@ -170,6 +170,16 @@ main {
 .color--default {
   color: cornflowerblue;
 }
+
+.color--laura_coombs {
+  color: blue;
+}
+.icon--laura_coombs {
+  background-color: blue;
+  mask-image: url(img/MORE_ASTERISK_LC_1-01.svg);
+  -webkit-mask-image: url(img/MORE_ASTERISK_LC_1-01.svg);
+}
+
 .color--mindyseu {
   color: red;
 }
