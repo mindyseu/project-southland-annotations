@@ -6,6 +6,12 @@ body {
   padding: 0;
   margin: 0.5em;
 }
+
+/* mindy added the line below*/
+.lg-img {
+  width: 100%;
+}
+
 p {
   margin: 0;
 }
