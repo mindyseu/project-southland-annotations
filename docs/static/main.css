@@ -12,6 +12,20 @@ body {
   width: 100%;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.about {
+  padding-left: 20px;
+}
+
+/* mindy added the lines above*/
+
 p {
   margin: 0;
 }
