@@ -171,6 +171,15 @@ main {
   color: cornflowerblue;
 }
 
+.color--lauracoombs {
+  color: green;
+}
+.icon--lauracoombs {
+  background-color: green;
+  mask-image: url(img/sun.svg);
+  -webkit-mask-image: url(img/sun.svg);
+}
+
 .color--laura_coombs {
   color: blue;
 }
@@ -188,6 +197,7 @@ main {
   mask-image: url(img/more-test-asterisk-2.svg);
   -webkit-mask-image: url(img/more-test-asterisk-2.svg);
 }
+
 .icon--rchrd2 {
   background-color: lightsteelblue;
   mask-image: url(img/sun.svg);
