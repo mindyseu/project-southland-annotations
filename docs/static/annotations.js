@@ -62,20 +62,15 @@ function compare(a, b) {
 
 function buildInnerHtml(anno, row) {
   // console.log(row);
-  // el.innerText = `${anno.user}: ${row.text}`;
   var $html = $(marked(row.text));
   $html.find("a").each((idx, el) => {
-    if (el.href.indexOf(".mp3") >= 0) {
+    if (el.href.indexOf(".mp3") >= 0 || el.href.indexOf(".m4a") >= 0) {
       el.innerText = decodeURI(el.innerText.split("/").pop());
       el.target = "_blank";
     }
   });
   $html.find("img").each((idx, el) => {
     el.setAttribute("data-zoom-image", "true");
-    // $(el).wrap(`<a href="${el.src}" target="_blank"></a>`);
-    // el.onclick = function() {
-    //   window.open(el.src, '_blank');
-    // }
   });
   return $html.html();
 }
