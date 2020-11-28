@@ -22,6 +22,7 @@ a:hover {
 
 .about {
   padding-left: 20px;
+  font-size: 20px;
 }
 /* mindy added the lines above*/
 
@@ -94,6 +95,9 @@ main {
     position: fixed;
     bottom: 10px;
     left: 10px;
+  }
+  .about {
+    font-size:32px;
   }
 }
 
