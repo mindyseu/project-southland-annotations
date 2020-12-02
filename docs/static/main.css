@@ -7,7 +7,7 @@ body {
   margin: 0.5em;
 }
 
-/* mindy added the line below*/
+/* mindy added the line below */
 .lg-img {
   width: 100%;
 }
@@ -37,6 +37,7 @@ p + p {
   color: black;
 }
 
+/* this is for the image enlargement */
 [data-zoom-backdrop='active'] {
 	opacity: 0;
 	pointer-events: auto;
@@ -174,9 +175,9 @@ main {
 }
 
 
-/******** begin user icons and colors ********/
+/******** ADD PARTICIPANTS + COLOR + SVG HERE ********/
 
-/***** 1 — Laura & Laura test *****/
+/***** 1 — Laura *****/
 .color--lauracoombs {
   color: plum;
 }
@@ -186,16 +187,7 @@ main {
   -webkit-mask-image: url(img/LC-asterisk.svg);
 }
 
-/* .color--laura_coombs {
-  color: blue;
-}
-.icon--laura_coombs {
-  background-color: blue;
-  mask-image: url(img/MORE_ASTERISK_LC_1-01.svg);
-  -webkit-mask-image: url(img/MORE_ASTERISK_LC_1-01.svg);
-} */
-
-/***** 2 — Mindy & Mindy test *****/
+/***** 2 — Mindy *****/
 .color--mindyseu {
   color: lime;
 }
@@ -205,16 +197,18 @@ main {
   -webkit-mask-image: url(img/MS-asterisk.svg);
 }
 
-/* .color--mindyseu_again {
-  color: pink;
+/***** 3 — Joe Potts *****/
+.color--joepotts {
+  color: orange;
 }
-.icon--mindyseu_again {
-  background-color: pink;
-  mask-image: url(img/more-test-asterisk-2.svg);
-  -webkit-mask-image: url(img/more-test-asterisk-2.svg);
-} */
 
-/***** 3 — Richard *****/
+.icon--joepotts {
+  background-color: orange;
+  mask-image: url(img/sun.svg);
+  -webkit-mask-image: url(img/sun.svg);
+}
+
+/***** 4 — Richard *****/
 .color--rchrd2 {
   color: lightsteelblue;
 }
@@ -225,16 +219,7 @@ main {
   -webkit-mask-image: url(img/sun.svg);
 }
 
-/***** 4 — Joe Potts *****/
-.color--joepotts {
-  color: orange;
-}
 
-.icon--joepotts {
-  background-color: orange;
-  mask-image: url(img/sun.svg);
-  -webkit-mask-image: url(img/sun.svg);
-}
 
 /***** 5 — Adam Feldmeth *****/
 /* .color--adamfeldmeth {
