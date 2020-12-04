@@ -297,10 +297,10 @@ main {
 } 
 
 /***** 12 — Eileen Levinson *****/
-.color--eileenlevinson {
+.color--eileenmachine {
   color: ;
 }
-.icon--eileenlevinson {
+.icon--eileenmachine {
   background-color: ;
   mask-image: url(img/EL-asterisk.svg);
   -webkit-mask-image: url(img/EL-asterisk.svg);
@@ -347,10 +347,10 @@ main {
 } 
 
 /***** 17 — Jean Chung *****/
-.color-- {
+.color--jeaano {
   color: ;
 }
-.icon-- {
+.icon--jeaano {
   background-color: ;
   mask-image: url(img/JC-asterisk.svg);
   -webkit-mask-image: url(img/JC-asterisk.svg);
@@ -486,7 +486,17 @@ main {
   -webkit-mask-image: url(img/NH-asterisk.svg);
 } 
 
-/***** 31 — Quentin Gaudry *****/
+/***** 31 — Paloma Izquierdo *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/PI-asterisk.svg);
+  -webkit-mask-image: url(img/PI-asterisk.svg);
+}
+
+/***** 32 — Quentin Gaudry *****/
 .color--quentingaudry {
   color: ;
 }
@@ -496,7 +506,7 @@ main {
   -webkit-mask-image: url(img/QG-asterisk.svg);
 } 
 
-/***** 32 — Rebecca Wilkinson *****/
+/***** 33 — Rebecca Wilkinson *****/
 .color--rebeccawilkinson {
   color: ;
 }
@@ -506,7 +516,7 @@ main {
   -webkit-mask-image: url(img/RW-asterisk.svg);
 } 
 
-/***** 33 — Sharanya Durvasula *****/
+/***** 34 — Sharanya Durvasula *****/
 .color--sharanyadurvasula {
   color: ;
 }
@@ -516,7 +526,7 @@ main {
   -webkit-mask-image: url(img/SD-asterisk.svg);
 } 
 
-/***** 34 — Silas Munro *****/
+/***** 35 — Silas Munro *****/
 .color-- {
   color: ;
 }
@@ -526,7 +536,7 @@ main {
   -webkit-mask-image: url(img/SM-asterisk.svg);
 } 
 
-/***** 35 — Valentina Vergara *****/
+/***** 36 — Valentina Vergara *****/
 .color-- {
   color: ;
 }
@@ -536,7 +546,7 @@ main {
   -webkit-mask-image: url(img/VV-asterisk.svg);
 } 
 
-/***** 36 — Yanchi Huang *****/
+/***** 37 — Yanchi Huang *****/
 .color--yanchihuang {
   color: ;
 }
@@ -546,7 +556,7 @@ main {
   -webkit-mask-image: url(img/YH-asterisk.svg);
 } 
 
-/***** 37 — Zach Whitworth *****/
+/***** 38 — Zach Whitworth *****/
 .color-- {
   color: ;
 }
@@ -556,7 +566,7 @@ main {
   -webkit-mask-image: url(img/ZW-asterisk.svg);
 } 
 
-/***** 38 — Zenobia Ahmed *****/
+/***** 39 — Zenobia Ahmed *****/
 .color--zenobiaahmed {
   color: ;
 }
