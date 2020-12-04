@@ -7,7 +7,6 @@ body {
   margin: 0.5em;
 }
 
-/* mindy added the line below */
 .lg-img {
   width: 100%;
 }
@@ -24,7 +23,6 @@ a:hover {
   padding-left: 20px;
   font-size: 20px;
 }
-/* mindy added the lines above*/
 
 p {
   margin: 0;
@@ -37,7 +35,6 @@ p + p {
   color: black;
 }
 
-/* this is for the image enlargement */
 [data-zoom-backdrop='active'] {
 	opacity: 0;
 	pointer-events: auto;
@@ -177,6 +174,17 @@ main {
 
 /******** ADD PARTICIPANTS + COLOR + SVG HERE ********/
 
+/***** 0 — Richard *****/
+.color--rchrd2 {
+  color: lightsteelblue;
+}
+
+.icon--rchrd2 {
+  background-color: lightsteelblue;
+  mask-image: url(img/sun.svg);
+  -webkit-mask-image: url(img/sun.svg);
+}
+
 /***** 1 — Laura *****/
 .color--lauracoombs {
   color: plum;
@@ -204,330 +212,356 @@ main {
 
 .icon--joepotts {
   background-color: orange;
-  mask-image: url(img/sun.svg);
-  -webkit-mask-image: url(img/sun.svg);
+  mask-image: url(img/JP-asterisk.svg);
+  -webkit-mask-image: url(img/JP-asterisk.svg);
 }
 
-/***** 4 — Richard *****/
-.color--rchrd2 {
-  color: lightsteelblue;
-}
-
-.icon--rchrd2 {
-  background-color: lightsteelblue;
-  mask-image: url(img/sun.svg);
-  -webkit-mask-image: url(img/sun.svg);
-}
-
-
-
-/***** 5 — Adam Feldmeth *****/
-/* .color--adamfeldmeth {
+/***** 4 — Adam Feldmeth *****/
+.color--adamfeldmeth {
   color: ;
 }
 .icon--adamfeldmeth {
   background-color: ;
-  mask-image: url(img/AF-asterisk.svg);
-  -webkit-mask-image: url(img/AF-asterisk.svg);
-} */
+  mask-image: url(img/AF2-asterisk.svg);
+  -webkit-mask-image: url(img/AF2-asterisk.svg);
+} 
 
-/***** 6 — Quentin Gaudry *****/
-/* .color--quentingaudry {
+/***** 5 — Alex Lahr *****/
+.color-- {
   color: ;
 }
-.icon--quentingaudry {
+.icon-- {
   background-color: ;
-  mask-image: url(img/QG-asterisk.svg);
-  -webkit-mask-image: url(img/QG-asterisk.svg);
-} */
+  mask-image: url(img/AL-asterisk.svg);
+  -webkit-mask-image: url(img/AL-asterisk.svg);
+} 
 
-/***** 7 — Alison Moeller *****/
-/* .color--alisonmoeller {
+/***** 6 — Alison Moeller *****/
+.color--alisonmoeller {
   color: ;
 }
 .icon--alisonmoeller {
   background-color: ;
   mask-image: url(img/AM-asterisk.svg);
   -webkit-mask-image: url(img/AM-asterisk.svg);
-} */
+} 
+
+/***** 7 — Amy Fang *****/
+.color--amyfang {
+  color: ;
+}
+.icon--amyfang {
+  background-color: ;
+  mask-image: url(img/AF-asterisk.svg);
+  -webkit-mask-image: url(img/AF-asterisk.svg);
+} 
 
 /***** 8 — Ashna Kapadia *****/
-/* .color--ashnakapadia {
+.color--ashnakapadia {
   color: ;
 }
 .icon--ashnakapadia {
   background-color: ;
   mask-image: url(img/.svg);
   -webkit-mask-image: url(img/.svg);
-} */
+} 
 
-/***** 9 — Brenan Stetzer *****/
-/* .color--brenanstetzer {
+/***** 9 — BJ Strew *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/BJS-asterisk.svg);
+  -webkit-mask-image: url(img/BJS-asterisk.svg);
+} 
+
+/***** 10 — Brenan Stetzer *****/
+.color--brenanstetzer {
   color: ;
 }
 .icon--brenanstetzer {
   background-color: ;
   mask-image: url(img/BS-asterisk.svg);
   -webkit-mask-image: url(img/BS-asterisk.svg);
-} */
+} 
 
-/***** 10 — Eileen Levinson *****/
-/* .color--eileenlevinson {
+/***** 11 — Ed Ryan *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/ER-asterisk.svg);
+  -webkit-mask-image: url(img/ER-asterisk.svg);
+} 
+
+/***** 12 — Eileen Levinson *****/
+.color--eileenlevinson {
   color: ;
 }
 .icon--eileenlevinson {
   background-color: ;
   mask-image: url(img/EL-asterisk.svg);
   -webkit-mask-image: url(img/EL-asterisk.svg);
-} */
+} 
 
-/***** 11 — Emi Takahashi *****/
-/* .color--emitakahashi {
+/***** 13 — Emi Takahashi *****/
+.color--emitakahashi {
   color: ;
 }
 .icon--emitakahashi {
   background-color: ;
   mask-image: url(img/ET-asterisk.svg);
   -webkit-mask-image: url(img/ET-asterisk.svg);
-} */
+} 
 
-/***** 12 — Emily Bluedorn *****/
-/* .color--emilybluedorn {
+/***** 14 — Emily Bluedorn *****/
+.color--emilybluedorn {
   color: ;
 }
 .icon--emilybluedorn {
   background-color: ;
   mask-image: url(img/EB-asterisk.svg);
   -webkit-mask-image: url(img/EB-asterisk.svg);
-} */
+} 
 
-/***** 13 — Eric Francisco *****/
-/* .color--ericfrancisco {
+/***** 15 — Emily Yang *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/EY-asterisk.svg);
+  -webkit-mask-image: url(img/EY-asterisk.svg);
+} 
+
+/***** 16 – Eric Francisco *****/
+.color--ericfrancisco {
   color: ;
 }
 .icon--ericfrancisco {
   background-color: ;
   mask-image: url(img/EF-asterisk.svg);
   -webkit-mask-image: url(img/EF-asterisk.svg);
-} */
+} 
 
-/***** 14 — JulieHwang *****/
-/* .color--juliehwang {
+/***** 17 — Jean Chung *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/JC-asterisk.svg);
+  -webkit-mask-image: url(img/JC-asterisk.svg);
+} 
+
+/***** 18 — Joy J *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/JJ-asterisk.svg);
+  -webkit-mask-image: url(img/JJ-asterisk.svg);
+} 
+
+/***** 19 — Juan Pablo Rahal *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/JR-asterisk.svg);
+  -webkit-mask-image: url(img/JR-asterisk.svg);
+} 
+
+/***** 20 — Julie Hwang *****/
+.color--juliehwang {
   color: ;
 }
 .icon--juliehwang {
   background-color: ;
   mask-image: url(img/JH-asterisk.svg);
   -webkit-mask-image: url(img/JH-asterisk.svg);
-} */
+} 
 
-/***** 15 — Jun Lin *****/
-/* .color--junlin {
+/***** 21 — Jun Lin *****/
+.color--junlin {
   color: ;
 }
 .icon--junlin {
   background-color: ;
   mask-image: url(img/JL-asterisk.svg);
   -webkit-mask-image: url(img/JL-asterisk.svg);
-} */
+} 
 
-/***** 16 — Katy Nelson *****/
-/* .color--katynelson {
+/***** 22 — Kate Opre *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/KO-asterisk.svg);
+  -webkit-mask-image: url(img/KO-asterisk.svg);
+} 
+
+/***** 23 — Katy Nelson *****/
+.color--katynelson {
   color: ;
 }
 .icon--katynelson {
   background-color: ;
   mask-image: url(img/KN-asterisk.svg);
   -webkit-mask-image: url(img/KN-asterisk.svg);
-} */
+} 
 
-/***** 17 — Kyle Richardson *****/
-/* .color--kylerichardson {
+/***** 24 — Kyle Richardson *****/
+.color--kylerichardson {
   color: ;
 }
 .icon--kylerichardson {
   background-color: ;
   mask-image: url(img/KR-asterisk.svg);
   -webkit-mask-image: url(img/KR-asterisk.svg);
-} */
+} 
 
-/***** 18 — Lee Noble *****/
-/* .color--leenoble {
+/***** 25 — Lee Noble *****/
+.color--leenoble {
   color: ;
 }
 .icon--leenoble {
   background-color: ;
   mask-image: url(img/LN-asterisk.svg);
   -webkit-mask-image: url(img/LN-asterisk.svg);
-} */
+} 
 
-/***** 19 — Lisa Maione *****/
-/* .color--lisamaione {
+/***** 26 — Leslie Liu *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/LL-asterisk.svg);
+  -webkit-mask-image: url(img/LL-asterisk.svg);
+} 
+
+/***** 27 — Lisa Maione *****/
+.color--lisamaione {
   color: ;
 }
 .icon--lisamaione {
   background-color: ;
   mask-image: url(img/LM-asterisk.svg);
   -webkit-mask-image: url(img/LM-asterisk.svg);
-} */
+} 
 
-/***** 20 — Maxime Pigeon *****/
-/* .color--maximepigeon {
+/***** 28 — Maxime Pigeon *****/
+.color--maximepigeon {
   color: ;
 }
 .icon--maximepigeon {
   background-color: ;
   mask-image: url(img/MP-asterisk.svg);
   -webkit-mask-image: url(img/MP-asterisk.svg);
-} */
+} 
 
-/***** 21 — MichelleKuan *****/
-/* .color--michellekuan {
+/***** 29 — Michelle Kuan *****/
+.color--michellekuan {
   color: ;
 }
 .icon--michellekuan {
   background-color: ;
   mask-image: url(img/MK-asterisk.svg);
   -webkit-mask-image: url(img/MK-asterisk.svg);
-} */
+} 
 
-/***** 22 — Navine Hattis *****/
-/* .color--navinehattis {
+/***** 30 — Navine Hattis *****/
+.color--navinehattis {
   color: ;
 }
 .icon--navinehattis {
   background-color: ;
   mask-image: url(img/NH-asterisk.svg);
   -webkit-mask-image: url(img/NH-asterisk.svg);
-} */
+} 
 
-/***** 23 — Rebecca Wilkinson *****/
-/* .color--rebeccawilkinson {
+/***** 31 — Quentin Gaudry *****/
+.color--quentingaudry {
+  color: ;
+}
+.icon--quentingaudry {
+  background-color: ;
+  mask-image: url(img/QG-asterisk.svg);
+  -webkit-mask-image: url(img/QG-asterisk.svg);
+} 
+
+/***** 32 — Rebecca Wilkinson *****/
+.color--rebeccawilkinson {
   color: ;
 }
 .icon--rebeccawilkinson {
   background-color: ;
   mask-image: url(img/RW-asterisk.svg);
   -webkit-mask-image: url(img/RW-asterisk.svg);
-} */
+} 
 
-/***** 24 — Sharanya Durvasula *****/
-/* .color--sharanyadurvasula {
+/***** 33 — Sharanya Durvasula *****/
+.color--sharanyadurvasula {
   color: ;
 }
 .icon--sharanyadurvasula {
   background-color: ;
   mask-image: url(img/SD-asterisk.svg);
   -webkit-mask-image: url(img/SD-asterisk.svg);
-} */
+} 
 
-/***** 25 — Yanchi Huang *****/
-/* .color--yanchihuang {
+/***** 34 — Silas Munro *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/SM-asterisk.svg.svg);
+  -webkit-mask-image: url(img/SM-asterisk.svg);
+} 
+
+/***** 35 — Valentina Vergara *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/VV-asterisk.svg);
+  -webkit-mask-image: url(img/VV-asterisk.svg);
+} 
+
+/***** 36 — Yanchi Huang *****/
+.color--yanchihuang {
   color: ;
 }
 .icon--yanchihuang {
   background-color: ;
   mask-image: url(img/YH-asterisk.svg);
   -webkit-mask-image: url(img/YH-asterisk.svg);
-} */
+} 
 
-/***** 26 — Zenobia Ahmed *****/
-/* .color--zenobiaahmed {
+/***** 37 — Zach Whitworth *****/
+.color-- {
+  color: ;
+}
+.icon-- {
+  background-color: ;
+  mask-image: url(img/ZW-asterisk.svg.svg);
+  -webkit-mask-image: url(img/ZW-asterisk.svg);
+} 
+
+/***** 38 — Zenobia Ahmed *****/
+.color--zenobiaahmed {
   color: ;
 }
 .icon--zenobiaahmed {
   background-color: ;
   mask-image: url(img/ZA-asterisk.svg);
   -webkit-mask-image: url(img/ZA-asterisk.svg);
-} */
-
-/***** 27 — lorem *****/
-/* .color-- {
-  color: ;
 }
-.icon-- {
-  background-color: ;
-  mask-image: url(img/.svg);
-  -webkit-mask-image: url(img/.svg);
-} */
-
-/***** 28 — lorem *****/
-/* .color-- {
-  color: ;
-}
-.icon-- {
-  background-color: ;
-  mask-image: url(img/-asterisk.svg);
-  -webkit-mask-image: url(img/-asterisk.svg);
-} */
-
-/***** 29 — lorem *****/
-/* .color-- {
-  color: ;
-}
-.icon-- {
-  background-color: ;
-  mask-image: url(img/-asterisk.svg);
-  -webkit-mask-image: url(img/-asterisk.svg);
-} */
-
-/***** 30 — lorem *****/
-/* .color-- {
-  color: ;
-}
-.icon-- {
-  background-color: ;
-  mask-image: url(img/-asterisk.svg);
-  -webkit-mask-image: url(img/-asterisk.svg);
-} */
-
-/***** 31 — lorem *****/
-/* .color-- {
-  color: ;
-}
-.icon-- {
-  background-color: ;
-  mask-image: url(img/-asterisk.svg);
-  -webkit-mask-image: url(img/-asterisk.svg);
-} */
-
-/***** 32 — lorem *****/
-/* .color-- {
-  color: ;
-}
-.icon-- {
-  background-color: ;
-  mask-image: url(img/-asterisk.svg);
-  -webkit-mask-image: url(img/-asterisk.svg);
-} */
-
-/***** 33 — lorem *****/
-/* .color-- {
-  color: ;
-}
-.icon-- {
-  background-color: ;
-  mask-image: url(img/-asterisk.svg);
-  -webkit-mask-image: url(img/-asterisk.svg);
-} */
-
-/***** 34 — lorem *****/
-/* .color-- {
-  color: ;
-}
-.icon-- {
-  background-color: ;
-  mask-image: url(img/-asterisk.svg);
-  -webkit-mask-image: url(img/-asterisk.svg);
-} */
-
-/***** 35 — lorem *****/
-/* .color-- {
-  color: ;
-}
-.icon-- {
-  background-color: ;
-  mask-image: url(img/-asterisk.svg);
-  -webkit-mask-image: url(img/-asterisk.svg);
-} */
-
