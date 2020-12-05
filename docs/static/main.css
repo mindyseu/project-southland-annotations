@@ -207,11 +207,11 @@ main {
 
 /***** 3 — Joe Potts *****/
 .color--jmp {
-  color: orange;
+  color: lavender;
 }
 
 .icon--jmp {
-  background-color: orange;
+  background-color: lavender;
   mask-image: url(img/JP-asterisk.svg);
   -webkit-mask-image: url(img/JP-asterisk.svg);
 }
@@ -228,10 +228,10 @@ main {
 
 /***** 5 — Alex Lahr *****/
 .color--lxlahr3 {
-  color: ;
+  color: Crimson;
 }
 .icon--lxlahr3 {
-  background-color: ;
+  background-color: Crimson;
   mask-image: url(img/AL-asterisk.svg);
   -webkit-mask-image: url(img/AL-asterisk.svg);
 } 
@@ -248,90 +248,90 @@ main {
 
 /***** 7 — Amy Fang *****/
 .color--azfang {
-  color: ;
+  color: thistle;
 }
 .icon--azfang {
-  background-color: ;
+  background-color: thistle;
   mask-image: url(img/AF-asterisk.svg);
   -webkit-mask-image: url(img/AF-asterisk.svg);
 } 
 
 /***** 8 — Ashna Kapadia *****/
 .color--ashkap1234 {
-  color: ;
+  color: lightsteelblue;
 }
 .icon--ashkap1234 {
-  background-color: ;
+  background-color: lightsteelblue;
   mask-image: url(img/.svg);
   -webkit-mask-image: url(img/.svg);
 } 
 
 /***** 9 — BJ Strew (W Roque Strew) *****/
 .color--roquestrew {
-  color: ;
+  color: darkorchid;
 }
 .icon--roquestrew {
-  background-color: ;
+  background-color: darkorchid;
   mask-image: url(img/BJS-asterisk.svg);
   -webkit-mask-image: url(img/BJS-asterisk.svg);
 } 
 
 /***** 10 — Brenan Stetzer *****/
 .color--bstetzer {
-  color: ;
+  color: darkorange;
 }
 .icon--bstetzer {
-  background-color: ;
+  background-color: darkorange;
   mask-image: url(img/BS-asterisk.svg);
   -webkit-mask-image: url(img/BS-asterisk.svg);
 } 
 
 /***** 11 — Ed Ryan *****/
 .color--E_a_ryan {
-  color: ;
+  color: RosyBrown;
 }
 .icon--E_a_ryan {
-  background-color: ;
+  background-color: RosyBrown;
   mask-image: url(img/ER-asterisk.svg);
   -webkit-mask-image: url(img/ER-asterisk.svg);
 } 
 
 /***** 12 — Eileen Levinson *****/
 .color--eileenmachine {
-  color: ;
+  color: tomato;
 }
 .icon--eileenmachine {
-  background-color: ;
+  background-color: tomato;
   mask-image: url(img/EL-asterisk.svg);
   -webkit-mask-image: url(img/EL-asterisk.svg);
 } 
 
 /***** 13 — Emi Takahashi *****/
 .color--emitakahashi {
-  color: ;
+  color: darkkhaki;
 }
 .icon--emitakahashi {
-  background-color: ;
+  background-color: darkkhaki;
   mask-image: url(img/ET-asterisk.svg);
   -webkit-mask-image: url(img/ET-asterisk.svg);
 } 
 
 /***** 14 — Emily Bluedorn *****/
 .color--ebluedorn {
-  color: ;
+  color: seagreen;
 }
 .icon--ebluedorn {
-  background-color: ;
+  background-color: seagreen;
   mask-image: url(img/EB-asterisk.svg);
   -webkit-mask-image: url(img/EB-asterisk.svg);
 } 
 
 /***** 15 — Emily Yang *****/
 .color--emilybyang {
-  color: ;
+  color: MidnightBlue;
 }
 .icon--emilybyang {
-  background-color: ;
+  background-color: MidnightBlue;
   mask-image: url(img/EY-asterisk.svg);
   -webkit-mask-image: url(img/EY-asterisk.svg);
 } 
@@ -348,200 +348,200 @@ main {
 
 /***** 17 — Jean Chung *****/
 .color--jeaano {
-  color: ;
+  color: DarkOrchid;
 }
 .icon--jeaano {
-  background-color: ;
+  background-color: DarkOrchid;
   mask-image: url(img/JC-asterisk.svg);
   -webkit-mask-image: url(img/JC-asterisk.svg);
 } 
 
 /***** 18 — Joy J *****/
 .color--joyjade {
-  color: ;
+  color: lawngreen;
 }
 .icon--joyjade {
-  background-color: ;
+  background-color: lawngreen;
   mask-image: url(img/JJ-asterisk.svg);
   -webkit-mask-image: url(img/JJ-asterisk.svg);
 } 
 
 /***** 19 — Juan Pablo Rahal *****/
 .color--juanpablorahal {
-  color: ;
+  color: BlueViolet;
 }
 .icon--juanpablorahal {
-  background-color: ;
+  background-color: BlueViolet;
   mask-image: url(img/JR-asterisk.svg);
   -webkit-mask-image: url(img/JR-asterisk.svg);
 } 
 
 /***** 20 — Julie Hwang *****/
 .color--julieok {
-  color: ;
+  color: Chartreuse;
 }
 .icon--julieok {
-  background-color: ;
+  background-color: Chartreuse;
   mask-image: url(img/JH-asterisk.svg);
   -webkit-mask-image: url(img/JH-asterisk.svg);
 } 
 
 /***** 21 — Jun Lin (Yu Chun Lin) *****/
 .color--yuujunlin {
-  color: ;
+  color: Saddlebrown;
 }
 .icon--yuujunlin {
-  background-color: ;
+  background-color: Saddlebrown;
   mask-image: url(img/JL-asterisk.svg);
   -webkit-mask-image: url(img/JL-asterisk.svg);
 } 
 
 /***** 22 — Kate Opre *****/
 .color--kateopre {
-  color: ;
+  color: orangered;
 }
 .icon--kateopre {
-  background-color: ;
+  background-color: orangered;
   mask-image: url(img/KO-asterisk.svg);
   -webkit-mask-image: url(img/KO-asterisk.svg);
 } 
 
 /***** 23 — Katy Nelson *****/
 .color--katy.nelson {
-  color: ;
+  color: goldenrod;
 }
 .icon--katy.nelson {
-  background-color: ;
+  background-color: goldenrod;
   mask-image: url(img/KN-asterisk.svg);
   -webkit-mask-image: url(img/KN-asterisk.svg);
 } 
 
 /***** 24 — Kyle Richardson *****/
 .color--rylekich {
-  color: ;
+  color: MediumSlateBlue;
 }
 .icon--rylekich {
-  background-color: ;
+  background-color: MediumSlateBlue;
   mask-image: url(img/KR-asterisk.svg);
   -webkit-mask-image: url(img/KR-asterisk.svg);
 } 
 
 /***** 25 — Lee Noble *****/
 .color--yoshimi1983 {
-  color: ;
+  color: DimGray;
 }
 .icon--yoshimi1983 {
-  background-color: ;
+  background-color: DimGray;
   mask-image: url(img/LN-asterisk.svg);
   -webkit-mask-image: url(img/LN-asterisk.svg);
 } 
 
 /***** 26 — Leslie Liu *****/
 .color--saladmom {
-  color: ;
+  color: RosyBrown;
 }
 .icon--saladmom {
-  background-color: ;
+  background-color: RosyBrown;
   mask-image: url(img/LL-asterisk.svg);
   -webkit-mask-image: url(img/LL-asterisk.svg);
 } 
 
 /***** 27 — Lisa Maione *****/
 .color--lisamaione {
-  color: ;
+  color: DarkTurquoise;
 }
 .icon--lisamaione {
-  background-color: ;
+  background-color: DarkTurquoise;
   mask-image: url(img/LM-asterisk.svg);
   -webkit-mask-image: url(img/LM-asterisk.svg);
 } 
 
 /***** 28 — Maxime Pigeon *****/
 .color--maximepigeon {
-  color: ;
+  color: DeepSkyBlue;
 }
 .icon--maximepigeon {
-  background-color: ;
+  background-color: DeepSkyBlue;
   mask-image: url(img/MP-asterisk.svg);
   -webkit-mask-image: url(img/MP-asterisk.svg);
 } 
 
 /***** 29 — Michelle Kuan *****/
 .color--michelllekuan {
-  color: ;
+  color: DarkKhaki;
 }
 .icon--michelllekuan {
-  background-color: ;
+  background-color: DarkKhaki;
   mask-image: url(img/MK-asterisk.svg);
   -webkit-mask-image: url(img/MK-asterisk.svg);
 } 
 
 /***** 30 — Naveen Hattis *****/
 .color--naveenhattis {
-  color: ;
+  color: DarkGreen;
 }
 .icon--naveenhattis {
-  background-color: ;
+  background-color: DarkGreen;
   mask-image: url(img/NH-asterisk.svg);
   -webkit-mask-image: url(img/NH-asterisk.svg);
 } 
 
 /***** 31 — Paloma Izquierdo *****/
 .color--palomaizquierdo {
-  color: ;
+  color: Black;
 }
 .icon--palomaizquierdo {
-  background-color: ;
+  background-color: Black;
   mask-image: url(img/PI-asterisk.svg);
   -webkit-mask-image: url(img/PI-asterisk.svg);
 }
 
 /***** 32 — Quentin Gaudry *****/
 .color--qdry {
-  color: ;
+  color: Sienna;
 }
 .icon--qdry {
-  background-color: ;
+  background-color: Sienna;
   mask-image: url(img/QG-asterisk.svg);
   -webkit-mask-image: url(img/QG-asterisk.svg);
 } 
 
 /***** 33 — Rebecca Wilkinson *****/
 .color--rebeccawilki {
-  color: ;
+  color: MediumSpringGreen;
 }
 .icon--rebeccawilki {
-  background-color: ;
+  background-color: MediumSpringGreen;
   mask-image: url(img/RW-asterisk.svg);
   -webkit-mask-image: url(img/RW-asterisk.svg);
 } 
 
 /***** 34 — Sharanya Durvasula *****/
 .color--shardurv {
-  color: ;
+  color: SaddleBrown;
 }
 .icon--shardurv {
-  background-color: ;
+  background-color: SaddleBrown;
   mask-image: url(img/SD-asterisk.svg);
   -webkit-mask-image: url(img/SD-asterisk.svg);
 } 
 
 /***** 35 — Silas Munro *****/
 .color--Siborg81  {
-  color: ;
+  color: DarkGoldenrod;
 }
 .icon--Siborg81  {
-  background-color: ;
+  background-color: DarkGoldenrod;
   mask-image: url(img/SM-asterisk.svg.svg);
   -webkit-mask-image: url(img/SM-asterisk.svg);
 } 
 
 /***** 36 — Valentina Vergara *****/
 .color--valentina_vergara {
-  color: ;
+  color: LemonChiffon;
 }
 .icon--valentina_vergara {
-  background-color: ;
+  background-color: LemonChiffon;
   mask-image: url(img/VV-asterisk.svg);
   -webkit-mask-image: url(img/VV-asterisk.svg);
 } 
@@ -558,20 +558,20 @@ main {
 
 /***** 38 — Zach Whitworth *****/
 .color--zachwhitworth {
-  color: ;
+  color: Coral;
 }
 .icon--zachwhitworth {
-  background-color: ;
+  background-color: Coral;
   mask-image: url(img/ZW-asterisk.svg.svg);
   -webkit-mask-image: url(img/ZW-asterisk.svg);
 } 
 
 /***** 39 — Zenobia Ahmed *****/
 .color--zenobiaahmed {
-  color: ;
+  color: SpringGreen	;
 }
 .icon--zenobiaahmed {
-  background-color: ;
+  background-color: SpringGreen	;
   mask-image: url(img/ZA-asterisk.svg);
   -webkit-mask-image: url(img/ZA-asterisk.svg);
 }
