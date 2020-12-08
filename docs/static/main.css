@@ -212,8 +212,8 @@ main {
 
 .icon--jmp {
   background-color: lavender;
-  mask-image: url(img/JP-asterisk.svg);
-  -webkit-mask-image: url(img/JP-asterisk.svg);
+  mask-image: url(img/JPP-asterisk.svg);
+  -webkit-mask-image: url(img/JPP-asterisk.svg);
 }
 
 /***** 4 — Adam Feldmeth *****/
@@ -222,8 +222,8 @@ main {
 }
 .icon--afeldmeth {
   background-color: ;
-  mask-image: url(img/AF2-asterisk.svg);
-  -webkit-mask-image: url(img/AF2-asterisk.svg);
+  mask-image: url(img/AFF-asterisk.svg);
+  -webkit-mask-image: url(img/AFF-asterisk.svg);
 } 
 
 /***** 5 — Alex Lahr *****/
