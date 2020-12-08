@@ -298,10 +298,10 @@ main {
 
 /***** 12 — Eileen Levinson *****/
 .color--eileenmachine {
-  color: tomato;
+  color: red;
 }
 .icon--eileenmachine {
-  background-color: tomato;
+  background-color: red;
   mask-image: url(img/EL-asterisk.svg);
   -webkit-mask-image: url(img/EL-asterisk.svg);
 } 
@@ -408,10 +408,10 @@ main {
 
 /***** 23 — Katy Nelson *****/
 .color--katy.nelson {
-  color: goldenrod;
+  color: red;
 }
 .icon--katy.nelson {
-  background-color: goldenrod;
+  background-color: red;
   mask-image: url(img/KN-asterisk.svg);
   -webkit-mask-image: url(img/KN-asterisk.svg);
 } 
@@ -488,20 +488,20 @@ main {
 
 /***** 31 — Paloma Izquierdo *****/
 .color--palomaizquierdo {
-  color: Black;
+  color: mediumpurple;
 }
 .icon--palomaizquierdo {
-  background-color: Black;
+  background-color: mediumpurple;
   mask-image: url(img/PI-asterisk.svg);
   -webkit-mask-image: url(img/PI-asterisk.svg);
 }
 
 /***** 32 — Quentin Gaudry *****/
 .color--qdry {
-  color: Sienna;
+  color: red;
 }
 .icon--qdry {
-  background-color: Sienna;
+  background-color:red;
   mask-image: url(img/QG-asterisk.svg);
   -webkit-mask-image: url(img/QG-asterisk.svg);
 } 
@@ -538,10 +538,10 @@ main {
 
 /***** 36 — Valentina Vergara *****/
 .color--valentina_vergara {
-  color: LemonChiffon;
+  color: blue;
 }
 .icon--valentina_vergara {
-  background-color: LemonChiffon;
+  background-color: blue;
   mask-image: url(img/VV-asterisk.svg);
   -webkit-mask-image: url(img/VV-asterisk.svg);
 } 
