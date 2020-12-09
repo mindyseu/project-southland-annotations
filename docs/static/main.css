@@ -297,11 +297,11 @@ main {
 } 
 
 /***** 12 — Eileen Levinson *****/
-.color--eileenmachine {
-  color: red;
+.color--Eileenmachine {
+  color: tomato;
 }
-.icon--eileenmachine {
-  background-color: red;
+.icon--Eileenmachine {
+  background-color: tomato;
   mask-image: url(img/EL-asterisk.svg);
   -webkit-mask-image: url(img/EL-asterisk.svg);
 } 
@@ -497,11 +497,11 @@ main {
 }
 
 /***** 32 — Quentin Gaudry *****/
-.color--qdry {
-  color: red;
+.color--qgdry {
+  color: Sienna;
 }
-.icon--qdry {
-  background-color:red;
+.icon--qgdry {
+  background-color:Sienna;
   mask-image: url(img/QG-asterisk.svg);
   -webkit-mask-image: url(img/QG-asterisk.svg);
 } 
