@@ -338,10 +338,10 @@ main {
 
 /***** 16 – Eric Francisco REPLACED by Donald Zhu *****/
 .color--donaldzhu {
-  color: ;
+  color: tomato;
 }
 .icon--donaldzhu {
-  background-color: ;
+  background-color: tomato;
   mask-image: url(img/DZ-asterisk.svg);
   -webkit-mask-image: url(img/DZ-asterisk.svg);
 } 
