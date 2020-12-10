@@ -262,8 +262,8 @@ main {
 }
 .icon--ashkap1234 {
   background-color: lightsteelblue;
-  mask-image: url(img/.svg);
-  -webkit-mask-image: url(img/.svg);
+  mask-image: url(img/AK-asterisk.svg);
+  -webkit-mask-image: url(img/AK-asterisk.svg);
 } 
 
 /***** 9 — BJ Strew (W Roque Strew) *****/
@@ -297,11 +297,11 @@ main {
 } 
 
 /***** 12 — Eileen Levinson *****/
-.color--eileenmachine {
-  color: red;
+.color--Eileenmachine {
+  color: tomato;
 }
-.icon--eileenmachine {
-  background-color: red;
+.icon--Eileenmachine {
+  background-color: tomato;
   mask-image: url(img/EL-asterisk.svg);
   -webkit-mask-image: url(img/EL-asterisk.svg);
 } 
@@ -336,14 +336,14 @@ main {
   -webkit-mask-image: url(img/EY-asterisk.svg);
 } 
 
-/***** 16 – Eric Francisco *****/
-.color--eafrancisco {
+/***** 16 – Eric Francisco REPLACED by Donald Zhu *****/
+.color--donaldzhu {
   color: ;
 }
-.icon--eafrancisco {
+.icon--donaldzhu {
   background-color: ;
-  mask-image: url(img/EF-asterisk.svg);
-  -webkit-mask-image: url(img/EF-asterisk.svg);
+  mask-image: url(img/DZ-asterisk.svg);
+  -webkit-mask-image: url(img/DZ-asterisk.svg);
 } 
 
 /***** 17 — Jean Chung *****/
@@ -362,8 +362,8 @@ main {
 }
 .icon--joyjade {
   background-color: lawngreen;
-  mask-image: url(img/JJ-asterisk.svg);
-  -webkit-mask-image: url(img/JJ-asterisk.svg);
+  mask-image: url(img/JP-asterisk.svg);
+  -webkit-mask-image: url(img/JP-asterisk.svg);
 } 
 
 /***** 19 — Juan Pablo Rahal *****/
@@ -407,11 +407,11 @@ main {
 } 
 
 /***** 23 — Katy Nelson *****/
-.color--katy.nelson {
-  color: red;
+.color--katy_nelson {
+  color: goldenrod;
 }
-.icon--katy.nelson {
-  background-color: red;
+.icon--katy_nelson {
+  background-color: goldenrod;
   mask-image: url(img/KN-asterisk.svg);
   -webkit-mask-image: url(img/KN-asterisk.svg);
 } 
@@ -497,11 +497,11 @@ main {
 }
 
 /***** 32 — Quentin Gaudry *****/
-.color--qdry {
-  color: red;
+.color--qgdry {
+  color: Sienna;
 }
-.icon--qdry {
-  background-color:red;
+.icon--qgdry {
+  background-color:Sienna;
   mask-image: url(img/QG-asterisk.svg);
   -webkit-mask-image: url(img/QG-asterisk.svg);
 } 
