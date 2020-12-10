@@ -407,16 +407,6 @@ main {
 } 
 
 /***** 23 — Katy Nelson *****/
-.color--katy.nelson {
-  color: red;
-}
-.icon--katy.nelson {
-  background-color: red;
-  mask-image: url(img/KN-asterisk.svg);
-  -webkit-mask-image: url(img/KN-asterisk.svg);
-} 
-
-/***** TEST 23 — Katy Nelson *****/
 .color--katy_nelson {
   color: goldenrod;
 }
@@ -425,7 +415,6 @@ main {
   mask-image: url(img/KN-asterisk.svg);
   -webkit-mask-image: url(img/KN-asterisk.svg);
 } 
-
 
 /***** 24 — Kyle Richardson *****/
 .color--rylekich {
