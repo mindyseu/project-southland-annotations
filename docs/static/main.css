@@ -519,10 +519,10 @@ main {
 
 /***** 34 — Sharanya Durvasula *****/
 .color--shardurv {
-  color: SaddleBrown;
+  color: DarkOliveGreen;
 }
 .icon--shardurv {
-  background-color: SaddleBrown;
+  background-color: DarkOliveGreen;
   mask-image: url(img/SD-asterisk.svg);
   -webkit-mask-image: url(img/SD-asterisk.svg);
 } 
