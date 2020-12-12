@@ -107,6 +107,7 @@ main {
 .annotation + .annotation {
   margin-left: 0;
 }
+
 .annotation p,
 .annotation div,
 .annotation img,
