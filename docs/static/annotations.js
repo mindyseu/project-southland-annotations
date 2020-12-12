@@ -119,18 +119,18 @@ function attachAnnotations(rows) {
       }
       // continue;
     }
-    var user = stripUsername(row.user);
-    var selector_list = row["target"][0]["selector"];
-    var text_quote_selector = get_text_quote_selector(selector_list);
-    if (text_quote_selector == null) continue;
-    var exact = text_quote_selector["exact"];
-    var prefix = text_quote_selector["prefix"];
-    anno = {
-      user: user,
-      exact: exact,
-      prefix: prefix,
-    };
     try {
+      var user = stripUsername(row.user);
+      var selector_list = row["target"][0]["selector"];
+      var text_quote_selector = get_text_quote_selector(selector_list);
+      if (text_quote_selector == null) continue;
+      var exact = text_quote_selector["exact"];
+      var prefix = text_quote_selector["prefix"];
+      anno = {
+        user: user,
+        exact: exact,
+        prefix: prefix,
+      };
       attachAnnotation(exact, prefix, anno, row);
     } catch (e) {
       console.log("attachAnnotation: " + anno.id + ": " + e.message);
