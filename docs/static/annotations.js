@@ -32,7 +32,9 @@ function get_selector_with(selector_list, key) {
 }
 
 function get_text_quote_selector(selector_list) {
-  return get_selector_with(selector_list, "exact");
+  for (var i = 0; i < selector_list.length; i++) {
+    if (selector_list[i].type == "TextQuoteSelector") return selector_list[i];
+  }
 }
 
 function get_text_position_selector(selector_list) {
