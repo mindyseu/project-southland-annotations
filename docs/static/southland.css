@@ -17,8 +17,8 @@
 }
 .icon--lauracoombs {
   background-color: plum;
-  mask-image: url(img/LC-asterisk.svg);
-  -webkit-mask-image: url(img/LC-asterisk.svg);
+  mask-image: url(southland-asterisks/LC-asterisk.svg);
+  -webkit-mask-image: url(southland-asterisks/LC-asterisk.svg);
 }
 
 /***** 2 — Mindy *****/
