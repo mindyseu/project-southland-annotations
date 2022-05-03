@@ -168,8 +168,8 @@ main {
   mask-position: center;
   -webkit-mask-position: center;
 
-  width: 18px;
-  height: 18px;
+  width: 18px !important;
+  height: 18px !important;
   margin-right: 0;
   display: inline-block;
 }
