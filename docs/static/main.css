@@ -61,6 +61,7 @@ nav {
 main {
   font-size: 20px !important;
   padding: 0px 32px 50px 0px;
+  max-width: 75%;
 }
 
 #edit-link {
@@ -99,10 +100,6 @@ main {
   }
 }
 
-.workshop-list {
-
-}
-
 .annotation {
   margin-right: 0;
   margin-left: 0;
@@ -124,10 +121,10 @@ main {
 .annotation h5 {
   display: inline;
   margin: auto;
-  height: auto;
+  height: 18px;
 }
 .annotation img {
-  height: 26px;
+  height: 16px;
   width: auto;
 }
 .annotation a {
