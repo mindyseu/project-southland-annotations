@@ -2,10 +2,20 @@
 
 /***** 1 — Mindy *****/
 .color--mindyseu {
-  color: lime;
+  color: purple;
 }
 .icon--mindyseu {
-  background-color: lime;
+  background-color: purple;
   mask-image: url(texas-asterisks/asterisk-1.svg);
   -webkit-mask-image: url(texas-asterisks/asterisk-1.svg);
+}
+
+/***** 2 — Mindy Test *****/
+.color--mindyseu_again {
+  color: red;
+}
+.icon--mindyseu_again {
+  background-color: red;
+  mask-image: url(texas-asterisks/asterisk-2.svg);
+  -webkit-mask-image: url(texas-asterisks/asterisk-2.svg);
 }
