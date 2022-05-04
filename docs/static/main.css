@@ -179,33 +179,165 @@ main {
 
 /***** 1 — Mindy *****/
 .color--mindyseu {
-  color: purple;
+  color: aqua;
 }
 .icon--mindyseu {
-  background-color: purple;
+  background-color: aqua;
   mask-image: url(img/texas-asterisk-1.svg);
   -webkit-mask-image: url(img/texas-asterisk-1.svg);
 }
 
-/***** 2 — Mindy Test *****/
-.color--mindyseu_again {
-  color: red;
+/***** 2 —  *****/
+.color--username {
+  color: blue;
 }
-.icon--mindyseu_again {
-  background-color: red;
+.icon--username {
+  background-color: blue;
   mask-image: url(img/texas-asterisk-2.svg);
   -webkit-mask-image: url(img/texas-asterisk-2.svg);
 }
 
-/***** 3 — Mindy Test *****/
-.color--pakman {
-  color: forestgreen;
+/***** 3 —  *****/
+.color--username {
+  color: chartreuse;
 }
-.icon--pakman {
-  background-color: forestgreen;
-  mask-image: url(img/texas-asterisk-2.svg);
-  -webkit-mask-image: url(img/texas-asterisk-2.svg);
+.icon--username {
+  background-color: chartreuse;
+  mask-image: url(img/texas-asterisk-3.svg);
+  -webkit-mask-image: url(img/texas-asterisk-3.svg);
 }
+
+/***** 4 —  *****/
+.color--username {
+  color: darkblue;
+}
+.icon--username {
+  background-color: darkblue;
+  mask-image: url(img/texas-asterisk-4.svg);
+  -webkit-mask-image: url(img/texas-asterisk-4.svg);
+}
+
+/***** 5 —  *****/
+.color--username {
+  color: firebrick;
+}
+.icon--username {
+  background-color: firebrick;
+  mask-image: url(img/texas-asterisk-5.svg);
+  -webkit-mask-image: url(img/texas-asterisk-5.svg);
+}
+
+/***** 6 —  *****/
+.color--username {
+  color: goldenrod;
+}
+.icon--username {
+  background-color: goldenrod;
+  mask-image: url(img/texas-asterisk-6.svg);
+  -webkit-mask-image: url(img/texas-asterisk-6.svg);
+}
+
+/***** 7 —  *****/
+.color--username {
+  color: hotpink;
+}
+.icon--username {
+  background-color: hotpink;
+  mask-image: url(img/texas-asterisk-7.svg);
+  -webkit-mask-image: url(img/texas-asterisk-7.svg);
+}
+
+/***** 8 —  *****/
+.color--username {
+  color: indianred;
+}
+.icon--username {
+  background-color: indianred;
+  mask-image: url(img/texas-asterisk-8.svg);
+  -webkit-mask-image: url(img/texas-asterisk-8.svg);
+}
+
+/***** 9 —  *****/
+.color--username {
+  color: khaki;
+}
+.icon--username {
+  background-color: khaki;
+  mask-image: url(img/texas-asterisk-9.svg);
+  -webkit-mask-image: url(img/texas-asterisk-9.svg);
+}
+
+/***** 10 —  *****/
+.color--username {
+  color: mediumorchid;
+}
+.icon--username {
+  background-color: mediumorchid;
+  mask-image: url(img/texas-asterisk-10.svg);
+  -webkit-mask-image: url(img/texas-asterisk-10.svg);
+}
+
+/***** 11 —  *****/
+.color--username {
+  color: olivedrab;
+}
+.icon--username {
+  background-color: olivedrab;
+  mask-image: url(img/texas-asterisk-11.svg);
+  -webkit-mask-image: url(img/texas-asterisk-11.svg);
+}
+
+/***** 12 —  *****/
+.color--username {
+  color: peru;
+}
+.icon--username {
+  background-color: peru;
+  mask-image: url(img/texas-asterisk-12.svg);
+  -webkit-mask-image: url(img/texas-asterisk-12.svg);
+}
+
+/***** 13 —  *****/
+.color--username {
+  color: salmon;
+}
+.icon--username {
+  background-color: salmon;
+  mask-image: url(img/texas-asterisk-13.svg);
+  -webkit-mask-image: url(img/texas-asterisk-13.svg);
+}
+
+/***** 14 —  *****/
+.color--username {
+  color: saddlebrown;
+}
+.icon--username {
+  background-color: saddlebrown;
+  mask-image: url(img/texas-asterisk-14.svg);
+  -webkit-mask-image: url(img/texas-asterisk-14.svg);
+}
+
+/***** 15 —  *****/
+.color--username {
+  color: teal;
+}
+.icon--username {
+  background-color: teal;
+  mask-image: url(img/texas-asterisk-15.svg);
+  -webkit-mask-image: url(img/texas-asterisk-15.svg);
+}
+
+/***** 16 —  *****/
+.color--username {
+  color: royalblue;
+}
+.icon--username {
+  background-color: royalblue;
+  mask-image: url(img/texas-asterisk-16.svg);
+  -webkit-mask-image: url(img/texas-asterisk-16.svg);
+}
+
+
 
 
 /* SOUTHLAND
