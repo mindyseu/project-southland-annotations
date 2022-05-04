@@ -19,3 +19,13 @@
   mask-image: url(texas-asterisks/asterisk-2.svg);
   -webkit-mask-image: url(texas-asterisks/asterisk-2.svg);
 }
+
+/***** 3 — Mindy Test *****/
+.color--pakman {
+  color: forestgreen;
+}
+.icon--pakman {
+  background-color: forestgreen;
+  mask-image: url(texas-asterisks/asterisk-3.svg);
+  -webkit-mask-image: url(texas-asterisks/asterisk-3.svg);
+}
