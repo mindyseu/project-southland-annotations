@@ -203,8 +203,8 @@ main {
 }
 .icon--pakman {
   background-color: forestgreen;
-  mask-image: url(img/texas-asterisk-3.svg);
-  -webkit-mask-image: url(img/texas-asterisk-3.svg);
+  mask-image: url(img/texas-asterisk-2.svg);
+  -webkit-mask-image: url(img/texas-asterisk-2.svg);
 }
 
 
