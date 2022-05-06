@@ -213,8 +213,8 @@ main {
 }
 .icon--gracepreston {
   background-color: #FFD700;
-  mask-image: url(img/texas-asterisk-4.svg);
-  -webkit-mask-image: url(img/texas-asterisk-4.svg);
+  mask-image: url(img/texas-asterisk-grace-preston.svg);
+  -webkit-mask-image: url(img/texas-asterisk-grace-preston.svg);
 }
 
 /***** 5 — Katherine Pena *****/
@@ -233,8 +233,8 @@ main {
 }
 .icon--steph.long {
   background-color: #4B0082;
-  mask-image: url(img/texas-asterisk-6.svg);
-  -webkit-mask-image: url(img/texas-asterisk-6.svg);
+  mask-image: url(img/texas-asterisk-steph-long.svg);
+  -webkit-mask-image: url(img/texas-asterisk-steph-long.svg);
 }
 
 /***** 7 — Chenyao Zhu *****/
@@ -293,8 +293,8 @@ main {
 }
 .icon--JoshWill_ {
   background-color: #6495ED;
-  mask-image: url(img/texas-asterisk-12.svg);
-  -webkit-mask-image: url(img/texas-asterisk-12.svg);
+  mask-image: url(img/texas-asterisk-joshua-williams.svg);
+  -webkit-mask-image: url(img/texas-asterisk-joshua-williams.svg);
 }
 
 /***** 13 — Jennifer Seward *****/
@@ -313,8 +313,8 @@ main {
 }
 .icon--dchilton {
   background-color: #9932CC;
-  mask-image: url(img/texas-asterisk-14.svg);
-  -webkit-mask-image: url(img/texas-asterisk-14.svg);
+  mask-image: url(img/texas-asterisk-dara-chilton.svg);
+  -webkit-mask-image: url(img/texas-asterisk-dara-chilton.svg);
 }
 
 /***** 15 — Alice Lee *****/
@@ -327,15 +327,50 @@ main {
   -webkit-mask-image: url(img/texas-asterisk-15.svg);
 }
 
-/***** 16 —  *****/
-.color--username {
-  color: royalblue;
+/***** 16 — Mihyun Kim *****/
+.color--mihyunkim {
+  color: #2E8B57;
 }
-.icon--username {
-  background-color: royalblue;
+.icon--mihyunkim {
+  background-color: #2E8B57;
   mask-image: url(img/texas-asterisk-16.svg);
   -webkit-mask-image: url(img/texas-asterisk-16.svg);
 }
+
+/***** 17 — Jaina Warren *****/
+.color--jainaawar {
+  color: #1E90FF;
+}
+.icon--jainaawar {
+  background-color: #1E90FF;
+  mask-image: url(img/texas-asterisk-12.svg);
+  -webkit-mask-image: url(img/texas-asterisk-12.svg);
+}
+
+/***** 16 — M. Wright *****/
+.color--mjwright {
+  color: #7FFF00;
+}
+.icon--mjwright {
+  background-color: #7FFF00;
+  mask-image: url(img/texas-asterisk-2.svg);
+  -webkit-mask-image: url(img/texas-asterisk-2.svg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
