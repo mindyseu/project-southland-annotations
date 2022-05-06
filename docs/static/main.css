@@ -187,142 +187,142 @@ main {
   -webkit-mask-image: url(img/texas-asterisk-1.svg);
 }
 
-/***** 2 —  *****/
-.color--username {
-  color: blue;
+/***** 2 — Jordan Steyer *****/
+.color--jordan.steyer {
+  color: #ADFF2F;
 }
-.icon--username {
-  background-color: blue;
+.icon--jordan.steyer {
+  background-color: #ADFF2F;
   mask-image: url(img/texas-asterisk-2.svg);
   -webkit-mask-image: url(img/texas-asterisk-2.svg);
 }
 
-/***** 3 —  *****/
-.color--username {
-  color: chartreuse;
+/***** 3 — Margot Shields *****/
+.color--mjrshields {
+  color: #00BFFF;
 }
-.icon--username {
-  background-color: chartreuse;
+.icon--mjrshields {
+  background-color: #00BFFF;
   mask-image: url(img/texas-asterisk-3.svg);
   -webkit-mask-image: url(img/texas-asterisk-3.svg);
 }
 
-/***** 4 —  *****/
-.color--username {
-  color: darkblue;
+/***** 4 — Grace Preston *****/
+.color--gracepreston {
+  color: #FFD700;
 }
-.icon--username {
-  background-color: darkblue;
+.icon--gracepreston {
+  background-color: #FFD700;
   mask-image: url(img/texas-asterisk-4.svg);
   -webkit-mask-image: url(img/texas-asterisk-4.svg);
 }
 
-/***** 5 —  *****/
-.color--username {
-  color: firebrick;
+/***** 5 — Katherine Pena *****/
+.color--k_p20 {
+  color: #191970;
 }
-.icon--username {
-  background-color: firebrick;
+.icon--k_p20 {
+  background-color: #191970;
   mask-image: url(img/texas-asterisk-5.svg);
   -webkit-mask-image: url(img/texas-asterisk-5.svg);
 }
 
-/***** 6 —  *****/
-.color--username {
-  color: goldenrod;
+/***** 6 — Stephanie Long *****/
+.color--steph.long {
+  color: #4B0082;
 }
-.icon--username {
-  background-color: goldenrod;
+.icon--steph.long {
+  background-color: #4B0082;
   mask-image: url(img/texas-asterisk-6.svg);
   -webkit-mask-image: url(img/texas-asterisk-6.svg);
 }
 
-/***** 7 —  *****/
-.color--username {
-  color: hotpink;
+/***** 7 — Chenyao Zhu *****/
+.color--Chenyaozhu {
+  color: #D2B48C;
 }
-.icon--username {
-  background-color: hotpink;
+.icon--Chenyaozhu {
+  background-color: #D2B48C;
   mask-image: url(img/texas-asterisk-7.svg);
   -webkit-mask-image: url(img/texas-asterisk-7.svg);
 }
 
-/***** 8 —  *****/
-.color--username {
-  color: indianred;
+/***** 8 — Mariangela Rodriguez *****/
+.color--mariangelac {
+  color: #9ACD32;
 }
-.icon--username {
-  background-color: indianred;
+.icon--mariangelac {
+  background-color: #9ACD32;
   mask-image: url(img/texas-asterisk-8.svg);
   -webkit-mask-image: url(img/texas-asterisk-8.svg);
 }
 
-/***** 9 —  *****/
-.color--username {
-  color: khaki;
+/***** 9 — Tyler Rico  *****/
+.color--tylerrico {
+  color: #191970;
 }
-.icon--username {
-  background-color: khaki;
+.icon--tylerrico {
+  background-color: #191970;
   mask-image: url(img/texas-asterisk-9.svg);
   -webkit-mask-image: url(img/texas-asterisk-9.svg);
 }
 
-/***** 10 —  *****/
-.color--username {
-  color: mediumorchid;
+/***** 10 — Neakail Tolbert *****/
+.color--neakailctolbert  {
+  color: coral;
 }
-.icon--username {
-  background-color: mediumorchid;
+.icon--neakailctolbert  {
+  background-color: coral;
   mask-image: url(img/texas-asterisk-10.svg);
   -webkit-mask-image: url(img/texas-asterisk-10.svg);
 }
 
-/***** 11 —  *****/
-.color--username {
-  color: olivedrab;
+/***** 11 — Chika Otuata *****/
+.color--Chika0 {
+  color: #008080;
 }
-.icon--username {
-  background-color: olivedrab;
+.icon--Chika0 {
+  background-color: #008080;
   mask-image: url(img/texas-asterisk-11.svg);
   -webkit-mask-image: url(img/texas-asterisk-11.svg);
 }
 
-/***** 12 —  *****/
-.color--username {
-  color: peru;
+/***** 12 — Joshua Williams *****/
+.color--JoshWill_ {
+  color: #6495ED;
 }
-.icon--username {
-  background-color: peru;
+.icon--JoshWill_ {
+  background-color: #6495ED;
   mask-image: url(img/texas-asterisk-12.svg);
   -webkit-mask-image: url(img/texas-asterisk-12.svg);
 }
 
-/***** 13 —  *****/
-.color--username {
-  color: salmon;
+/***** 13 — Jennifer Seward *****/
+.color--jennseward {
+  color: #2E8B57;
 }
-.icon--username {
-  background-color: salmon;
+.icon--jennseward {
+  background-color: #2E8B57;
   mask-image: url(img/texas-asterisk-13.svg);
   -webkit-mask-image: url(img/texas-asterisk-13.svg);
 }
 
-/***** 14 —  *****/
-.color--username {
-  color: saddlebrown;
+/***** 14 — Dara Chilton *****/
+.color--dchilton {
+  color: #9932CC;
 }
-.icon--username {
-  background-color: saddlebrown;
+.icon--dchilton {
+  background-color: #9932CC;
   mask-image: url(img/texas-asterisk-14.svg);
   -webkit-mask-image: url(img/texas-asterisk-14.svg);
 }
 
-/***** 15 —  *****/
-.color--username {
-  color: teal;
+/***** 15 — Alice Lee *****/
+.color--alicejlee {
+  color: #9932CC;
 }
-.icon--username {
-  background-color: teal;
+.icon--alicejlee {
+  background-color: #9932CC;
   mask-image: url(img/texas-asterisk-15.svg);
   -webkit-mask-image: url(img/texas-asterisk-15.svg);
 }
