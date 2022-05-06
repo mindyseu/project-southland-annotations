@@ -189,12 +189,12 @@ main {
 
 /***** 2 — Jordan Steyer *****/
 .color--jordan.steyer {
-  color: #ADFF2F;
+  color: #ADFF2F !important;
 }
 .icon--jordan.steyer {
-  background-color: #ADFF2F;
-  mask-image: url(img/texas-asterisk-2.svg);
-  -webkit-mask-image: url(img/texas-asterisk-2.svg);
+  background-color: #ADFF2F !important;
+  mask-image: url(img/texas-asterisk-jordan-steyer.svg);
+  -webkit-mask-image: url(img/texas-asterisk-jordan-steyer.svg);
 }
 
 /***** 3 — Margot Shields *****/
@@ -229,10 +229,10 @@ main {
 
 /***** 6 — Stephanie Long *****/
 .color--steph.long {
-  color: #4B0082;
+  color: #4B0082 !important;
 }
 .icon--steph.long {
-  background-color: #4B0082;
+  background-color: #4B0082 !important;
   mask-image: url(img/texas-asterisk-steph-long.svg);
   -webkit-mask-image: url(img/texas-asterisk-steph-long.svg);
 }
@@ -253,8 +253,8 @@ main {
 }
 .icon--mariangelac {
   background-color: #9ACD32;
-  mask-image: url(img/texas-asterisk-8.svg);
-  -webkit-mask-image: url(img/texas-asterisk-8.svg);
+  mask-image: url(img/texas-asterisk-mariangela-rodriguez.svg);
+  -webkit-mask-image: url(img/texas-asterisk-mariangela-rodriguez.svg);
 }
 
 /***** 9 — Tyler Rico  *****/
@@ -283,8 +283,8 @@ main {
 }
 .icon--Chika0 {
   background-color: #008080;
-  mask-image: url(img/texas-asterisk-11.svg);
-  -webkit-mask-image: url(img/texas-asterisk-11.svg);
+  mask-image: url(img/texas-asterisk-Chika-Otuata.svg);
+  -webkit-mask-image: url(img/texas-asterisk-Chika-Otuata.svg);
 }
 
 /***** 12 — Joshua Williams *****/
@@ -303,8 +303,8 @@ main {
 }
 .icon--jennseward {
   background-color: #2E8B57;
-  mask-image: url(img/texas-asterisk-13.svg);
-  -webkit-mask-image: url(img/texas-asterisk-13.svg);
+  mask-image: url(img/texas-asterisk-jennifer-seward.svg);
+  -webkit-mask-image: url(img/texas-asterisk-jennifer-seward.svg);
 }
 
 /***** 14 — Dara Chilton *****/
@@ -333,8 +333,8 @@ main {
 }
 .icon--mihyunkim {
   background-color: #2E8B57;
-  mask-image: url(img/texas-asterisk-16.svg);
-  -webkit-mask-image: url(img/texas-asterisk-16.svg);
+  mask-image: url(img/texas-asterisk-mihyun-kim.svg);
+  -webkit-mask-image: url(img/texas-asterisk-mihyun-kim.svg);
 }
 
 /***** 17 — Jaina Warren *****/
@@ -343,8 +343,8 @@ main {
 }
 .icon--jainaawar {
   background-color: #1E90FF;
-  mask-image: url(img/texas-asterisk-12.svg);
-  -webkit-mask-image: url(img/texas-asterisk-12.svg);
+  mask-image: url(img/texas-asterisk-jaina-warren.svg);
+  -webkit-mask-image: url(img/texas-asterisk-jaina-warren.svg);
 }
 
 /***** 16 — M. Wright *****/
@@ -353,8 +353,8 @@ main {
 }
 .icon--mjwright {
   background-color: #7FFF00;
-  mask-image: url(img/texas-asterisk-2.svg);
-  -webkit-mask-image: url(img/texas-asterisk-2.svg);
+  mask-image: url(img/texas-asterisk-M-Wright.svg);
+  -webkit-mask-image: url(img/texas-asterisk-M-Wright.svg);
 }
 
 
@@ -405,8 +405,8 @@ main {
 }
 .icon--mindyseu {
   background-color: lime;
-  mask-image: url(img/MS-asterisk.svg);
-  -webkit-mask-image: url(img/MS-asterisk.svg);
+  mask-image: url(img/texas-asterisk-1.svg);
+  -webkit-mask-image: url(img/texas-asterisk-1.svg);
 }
 
 /***** 3 — Joe Potts *****/
